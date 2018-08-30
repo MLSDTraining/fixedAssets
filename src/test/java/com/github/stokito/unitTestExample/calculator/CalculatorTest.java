@@ -26,7 +26,7 @@ public class CalculatorTest {
 	@Test
 	public void testDivide() {
 		Calculator calculator = new Calculator();
-		Assert.assertEquals(2.0, calculator.Operations(6.0, 3.0, '/'));
+		Assert.assertEquals(3.0, calculator.Operations(6.0, 3.0, '/'));
 	}
 
 
